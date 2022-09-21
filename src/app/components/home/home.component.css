@@ -1,0 +1,14 @@
+.card{
+    width: 90%;
+    margin: auto;
+    background-color: azure;
+    font-size: 20pt;
+}
+
+img{
+    height: 25rem;
+}
+
+p{
+    font-size: 12pt;
+}
