@@ -6,14 +6,14 @@
             <i class="material-icons">home</i>
             Home
         </a>
+        <a mat-list-item routerLink="tecnicos">
+            <i class="material-icons">account_circle</i>
+            Técnicos
+        </a>
         <a mat-list-item routerLink="/">
           <i class="material-icons">person</i>
           Clientes
       </a>
-        <a mat-list-item routerLink="/">
-            <i class="material-icons">account_circle</i>
-            Técnicos
-        </a>
         <a mat-list-item routerLink="/">
             <i class="material-icons">code</i>
             GitHub
@@ -27,10 +27,10 @@
     </mat-drawer>
   
     <div class="sidenav-content">
-      <app-header></app-header>
       <button class="menu mat-elevation-z8" (click)="drawer.toggle()" mat-icon-button>
         <mat-icon>menu</mat-icon>
       </button>
+      <app-header></app-header>
       <router-outlet></router-outlet>
     </div>
   
