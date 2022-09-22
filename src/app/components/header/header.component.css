@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+h1{
+    border: 1px solid rgb(163, 158, 158);
+    border-radius: 2rem;
+    margin: 1rem auto;
+    padding: 1rem 5%;
+
+}
