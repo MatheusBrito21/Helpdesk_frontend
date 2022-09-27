@@ -27,6 +27,7 @@ import { TecnicoListComponent } from './components/tecnico/tecnico-list/tecnico-
 import { LoginComponent } from './components/login/login.component';
 import { ToastrModule } from 'ngx-toastr';
 import { HttpClientModule } from '@angular/common/http';
+import { AuthInterceptorProvider } from './interceptors/auth.interceptor';
 
 @NgModule({
   declarations: [
@@ -65,7 +66,7 @@ import { HttpClientModule } from '@angular/common/http';
     })
     
   ],
-  providers: [],
+  providers: [AuthInterceptorProvider],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
