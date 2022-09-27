@@ -30,3 +30,7 @@ h1{
 button{
     margin-bottom: .5rem;
 }
+
+mat-icon{
+    opacity: .5;
+}
